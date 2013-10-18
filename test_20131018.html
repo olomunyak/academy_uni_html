@@ -2,12 +2,20 @@
   <head>
     <title>Test Title</title>
     <style type="text/css">
-     #test_p { color:red; }
-     .test_h1 { color:blue; }
+     #test_p,.test_h1 { color:red; }
+     .div_span { color:white; }
+     div .div_span { background-color:black; }
+     span .div_span { background-color:gray; }
     </style>
   </head>
   <body>
-    <h1 style="color:blue;">가나다라마바사</h1>
+    <h1 class="test_h1">가나다라마바사</h1>
     <p id="test_p">아자차카타파하</p>
+    <div>
+      <span class="div_span">테스트중</span>
+    </div>
+    <span>
+      <span class="div_span">테스트중</span>
+    </span>
   </body>
 </html>
