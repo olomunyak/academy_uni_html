@@ -1,0 +1,197 @@
+[33mcommit 5afbc9ed1d3142d173285652c971202663e59ac4[m
+Author: olomunyak <bongwon.kwon@gmail.com>
+Date:   Fri Oct 18 15:39:49 2013 +0900
+
+    mod 1018_6 position absolute
+
+[33mcommit 9127174ca2b0064d36832e62e2b4d9ad4f6b780a[m
+Author: olomunyak <bongwon.kwon@gmail.com>
+Date:   Fri Oct 18 15:14:32 2013 +0900
+
+    mod 1018_6 overflow scroll
+
+[33mcommit bcf174a067142ff699d2da53f395169af2f49a94[m
+Author: olomunyak <bongwon.kwon@gmail.com>
+Date:   Fri Oct 18 15:13:04 2013 +0900
+
+    mod 1018_6 overflow hidden
+
+[33mcommit f0878ee41735845e07fc98c957b232acb4c1b1be[m
+Author: olomunyak <bongwon.kwon@gmail.com>
+Date:   Fri Oct 18 15:06:29 2013 +0900
+
+    add 1018_6 inline-block
+
+[33mcommit e8cbc8a34ae464036d2a885021eb8aa8aded09e7[m
+Author: olomunyak <bongwon.kwon@gmail.com>
+Date:   Fri Oct 18 14:38:55 2013 +0900
+
+    mod 1018_5 margin padding
+
+[33mcommit 190f5ac46828010dfbb56aa294dd2f0632b038d2[m
+Author: olomunyak <bongwon.kwon@gmail.com>
+Date:   Fri Oct 18 14:33:37 2013 +0900
+
+    mod 2018_5 padding
+
+[33mcommit 37f209678759dd7bc80c2d08055bbf84949bcc65[m
+Author: olomunyak <bongwon.kwon@gmail.com>
+Date:   Fri Oct 18 14:27:42 2013 +0900
+
+    add 1018_5 margin
+
+[33mcommit 59c34d0089907ed39091d53d5610b4d08e3f080a[m
+Author: olomunyak <bongwon.kwon@gmail.com>
+Date:   Fri Oct 18 14:27:03 2013 +0900
+
+    mod 1018_4
+
+[33mcommit 0d4b835c478508c7282532c5d39d0597d660d54f[m
+Author: olomunyak <bongwon.kwon@gmail.com>
+Date:   Fri Oct 18 14:10:20 2013 +0900
+
+    mod 1018_4 add font-style
+
+[33mcommit bea1c4948b579fedbb6b8aac332518b33f06880c[m
+Author: olomunyak <bongwon.kwon@gmail.com>
+Date:   Fri Oct 18 14:09:10 2013 +0900
+
+    mod 1018_4 add font-size
+
+[33mcommit ac338b5adf9b2d26eedc024bede8f8882f918efe[m
+Author: olomunyak <bongwon.kwon@gmail.com>
+Date:   Fri Oct 18 14:08:11 2013 +0900
+
+    add 1018_4
+
+[33mcommit fe47f0e63886f34afb9bbc4aff03f146540e1717[m
+Author: olomunyak <bongwon.kwon@gmail.com>
+Date:   Fri Oct 18 13:42:00 2013 +0900
+
+    mod 1018_3
+
+[33mcommit 27de352cd3763d4555a3c4239cf971b1ce34ef2f[m
+Author: olomunyak <bongwon.kwon@gmail.com>
+Date:   Fri Oct 18 13:34:09 2013 +0900
+
+    mod 1018_3 max-height, min-height
+
+[33mcommit 0ade674fdaa4143dd1396d2cd5e1f07a0e945767[m
+Author: olomunyak <bongwon.kwon@gmail.com>
+Date:   Fri Oct 18 13:15:44 2013 +0900
+
+    mod 1018_3 big button
+
+[33mcommit 89c31696f85e7cfd9585cac9d8e30229fa5eef79[m
+Author: olomunyak <bongwon.kwon@gmail.com>
+Date:   Fri Oct 18 13:13:14 2013 +0900
+
+    mod 1018_3 px
+
+[33mcommit d03a381631bd6afd55dc27e8c48595afc495744b[m
+Author: olomunyak <bongwon.kwon@gmail.com>
+Date:   Fri Oct 18 13:12:31 2013 +0900
+
+    dimension height width
+
+[33mcommit d8aaf64456639ff43739be8e5c6415465399e612[m
+Author: olomunyak <bongwon.kwon@gmail.com>
+Date:   Fri Oct 18 13:07:13 2013 +0900
+
+    mod 1018_2
+
+[33mcommit f34682d399408957588a27326ee8b816c445a78d[m
+Author: olomunyak <bongwon.kwon@gmail.com>
+Date:   Fri Oct 18 12:54:25 2013 +0900
+
+    mod 1018 add top, left
+
+[33mcommit edcce0f3bdffc3f09951c4446bc06ff4242b1ac3[m
+Author: olomunyak <bongwon.kwon@gmail.com>
+Date:   Fri Oct 18 12:51:44 2013 +0900
+
+    add 1018
+
+[33mcommit f7f6b0aa9bf491896096bec1385ef15b4ecfafce[m
+Author: olomunyak <bongwon.kwon@gmail.com>
+Date:   Fri Oct 18 11:37:37 2013 +0900
+
+    mod 1018 background-position
+
+[33mcommit c5d51a45ce1a9377cc35d13166ce0f27368e56df[m
+Author: olomunyak <bongwon.kwon@gmail.com>
+Date:   Fri Oct 18 11:30:38 2013 +0900
+
+    mod 1018 repeat-x
+
+[33mcommit cd4f2dfb6ece0056bc86a1cceba84a4caea2b71b[m
+Author: olomunyak <bongwon.kwon@gmail.com>
+Date:   Fri Oct 18 11:26:29 2013 +0900
+
+    mod 1018 background-image
+
+[33mcommit bccccd7891b188170c2038866830460a5fc9ebb5[m
+Author: olomunyak <bongwon.kwon@gmail.com>
+Date:   Fri Oct 18 11:15:07 2013 +0900
+
+    element emement
+
+[33mcommit 73226172505bec123a220c206adf4044abfecf84[m
+Author: olomunyak <bongwon.kwon@gmail.com>
+Date:   Fri Oct 18 10:53:33 2013 +0900
+
+    mod 1018 - input style to tag
+
+[33mcommit 53a047c264576cb19a352d4597acc9e1e9c05686[m
+Author: olomunyak <bongwon.kwon@gmail.com>
+Date:   Fri Oct 18 10:50:14 2013 +0900
+
+    modify 1018, add class/id
+
+[33mcommit 30f2cce7cdd0d6bc525c421ba3d850d4930e3b9f[m
+Author: olomunyak <bongwon.kwon@gmail.com>
+Date:   Fri Oct 18 10:49:09 2013 +0900
+
+    1018
+
+[33mcommit 0ec81f57499112c23ba41083bcf469d7da9734b7[m
+Author: olomunyak <bongwon.kwon@gmail.com>
+Date:   Thu Oct 17 21:56:39 2013 +0900
+
+    del test20131017_2.html
+
+[33mcommit 902dcbc47c7dc92164682ec69dffd67b4491daf8[m
+Author: olomunyak <bongwon.kwon@gmail.com>
+Date:   Thu Oct 17 21:55:04 2013 +0900
+
+    modify 1017
+
+[33mcommit e1e0c66baf80a13249a0d5fffbd73ba986d6208f[m
+Author: olomunyak <bongwon.kwon@gmail.com>
+Date:   Thu Oct 17 19:57:17 2013 +0900
+
+    add 1017_2
+
+[33mcommit 6222068c7f82071ed187f9d5d0b0697b3c4527e0[m
+Author: olomunyak <bongwon.kwon@gmail.com>
+Date:   Thu Oct 17 19:42:36 2013 +0900
+
+    add 1017, 1017_2
+
+[33mcommit 1798560608f16de654ec2054cc5add8c2f18f4cc[m
+Author: olomunyak <bongwon.kwon@gmail.com>
+Date:   Wed Oct 16 16:27:38 2013 +0900
+
+    Test_form.html
+
+[33mcommit 9e55bc2ea3f335ef9a22e0495f7f71cfd04fa2fb[m
+Author: olomunyak <bongwon.kwon@gmail.com>
+Date:   Wed Oct 16 14:53:49 2013 +0900
+
+    add form
+
+[33mcommit f732d60f058d3bc92c3e8b3928a079e34c170cb4[m
+Author: olomunyak <bongwon.kwon@gmail.com>
+Date:   Wed Oct 16 13:55:08 2013 +0900
+
+    first commit
