@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <title>Test</title>
+    <script language="javascript">
+//      var str = "잘되나?";
+      var str = "";
+      var i = 3;
+
+      function test() {
+        i = document.getElementById("input_txt").value;
+
+        if(i == "") {
+          alert("값 없다.");          
+        } else if(isNaN(i * 1)) {
+          alert("숫자 넣어라.");          
+        } else {
+          alert(i * 1);
+        }
+
+        for(var j = 1; j <= 9;j++) {
+          str += i + "*" + j + "=" + (i*j) + "\n";
+        }
+        alert(str);
+        str = ""; 
+      }
+    </script>
+  </head>
+  <body>
+    <input type="text" id="input_txt" />
+    <input type="button" value="버튼" onclick="test();" />
+  </body>
+</html>
