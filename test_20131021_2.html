@@ -25,7 +25,23 @@
       }
 
       function test2(str) {
-       document.getElementById("view_txt").value = str;       
+       //document.getElementById("view_txt").value = str;
+       var obj = document.getElementById("view_txt");
+       obj.value = str;
+       obj.style.color = "#ff00ff";
+      }
+
+      function test3() {
+       var imgObj = document.getElementById("img_cat");
+       var btnObj = document.getElementById("hidden_btn");
+
+       if(imgObj.style.display == "none") {
+        imgObj.style.display = "";
+        btnObj.value="감추다.";
+       } else {
+        imgObj.style.display = "none";
+        btnObj.value = "보이다.";
+       }
       }
     </script>
   </head>
@@ -35,5 +51,9 @@
     <br />
     <input type="text" id="view_txt" readonly="readonly" />
     <input type="button" value="넣어라" onclick="test2('AB');" />
+    <br />
+    <input type="button" id="hidden_btn" value="감추다" onclick="test3();" />
+    <br />
+    <img src="./Cats2.png" id="img_cat" alt="고양이" />
   </body>
 </html>
