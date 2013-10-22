@@ -53,19 +53,30 @@
        font-weight:bold;
      }
     </style>
+    <script language="javascript">
+      function popup() {
+        document.getElementById("bg_div").style.display = "block";
+        document.getElementById("popup_div").style.display = "block";
+      }
+      function closepopup() {
+        document.getElementById("bg_div").style.display = "none";
+        document.getElementById("popup_div").style.display = "none";
+      }
+    </script>
   </head>
   <body>
-   <div class="bg_div"></div>
-   <div class="popup_div">
+   <div class="bg_div" id="bg_div"></div>
+   <div class="popup_div" id="popup_div">
     <div class="popup_title">&nbsp;테스트팝업</div>
     <div class="popup_content">
      팝업 UI 테스트 중입니다.<br />
      정상적으로 뜨는지 확인중입니다.<br />
      테스트 문구가 정상적으로 보입니까?<br />
      보이면 다행입니다.<br /><br /><br />
-     <input type="button" class="ok_btn" value="확인" />
+     <input type="button" class="ok_btn" value="확인" onclick="closepopup();" />
     </div>
    </div>
+   <input type="button" id="hidden_btn" value="팝업" onclick="popup();" />
    가나다라마바사아자차카타파하
    <img src="./Cats2.png"/>
   </body>
