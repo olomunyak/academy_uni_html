@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<script type="text/javascript">
+	function btnClick() {
+		alert("눌렀다!");
+	}
+	
+	function btnOver(imgBtn) {
+		imgBtn.src = "./images/go.png";
+	}
+	
+	function btnOut(imgBtn) {
+		imgBtn.src = "./images/clock.png";
+	}
+</script>
+</head>
+<body>
+	<img src="./images/clock.png" 
+		 onclick="btnClick();"		 
+	     onmouseover="btnOver(this);"
+		 onmouseout="btnOut(this);" />
+</body>
+</html>
