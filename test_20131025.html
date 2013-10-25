@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<script type="text/javascript">
+	function test() {
+		var txt = document.getElementById("txt");
+		alert(txt.value.length);
+		alert(txt.value.substring(3, txt.value.length));
+		alert(txt.value.replace("p", "k"));
+		alert(txt.value.replace(/p/gi, "k"));
+	}
+</script>
+</head>
+<body>
+	<input type="text" id="txt" value="apple" readonly="readonly" />
+	<input type="button" value="버튼" onclick="test();" />
+</body>
+</html>
