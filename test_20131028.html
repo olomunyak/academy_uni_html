@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<style type="text/css">
+	span.num, span.opt{		
+		border:solid 2px black;
+	}
+</style>
+<script type="text/javascript">
+	var numHistory = "";
+	
+	var result = 0;
+	var tmpOperand = "";
+	
+	function setHistory(snum) {
+				
+		var nr = document.getElementById("nresult");
+		var nh = document.getElementById("nhistory");
+		
+		if(snum == "+" || snum == "-" || snum == "x" || snum == "/" || snum == "=") {
+
+			nh.value = "";
+			nr.value = numHistory;
+			
+			if(result == 0) {
+				result = Number(numHistory);
+				tmpOperand = snum;
+			}
+			else {
+				if(tmpOperand == "+") {
+					result = result + Number(numHistory);					
+				}
+				else if(tmpOperand == "-") {
+					result = result - Number(numHistory);
+				}
+				else if(tmpOperand == "x") {
+					result = result * Number(numHistory);
+				}
+				else if(tmpOperand == "/") {
+					result = result / Number(numHistory);
+				}
+				
+				tmpOperand = snum;
+			}
+			
+			numHistory = "";
+			nr.value = result;			
+		}
+		else if(snum == "c") {
+			
+			numHistory = "";
+			result = 0;
+			tmpOperand = "";
+			nh.value = "";
+			nr.value = "";
+		}
+		else {
+			numHistory += snum;
+			nh.value = numHistory
+		}
+	}	
+</script>
+</head>
+<body>
+<input type="text" name="nresult" id="nresult" readonly="readonly" /><br />
+<input type="text" name="nhistory" id="nhistory" readonly="readonly" /><br />
+<span class="num" onclick="setHistory(1);">1</span>
+<span class="num" onclick="setHistory(2);">2</span>
+<span class="num" onclick="setHistory(3);">3</span>
+<span class="num" onclick="setHistory(4);">4</span>
+<span class="num" onclick="setHistory(5);">5</span>
+<span class="num" onclick="setHistory(6);">6</span>
+<span class="num" onclick="setHistory(7);">7</span>
+<span class="num" onclick="setHistory(8);">8</span>
+<span class="num" onclick="setHistory(9);">9</span>
+<span class="num" onclick="setHistory(0);">0</span><br />
+<span class="opt" onclick="setHistory('+');">+</span>
+<span class="opt" onclick="setHistory('-');">-</span>
+<span class="opt" onclick="setHistory('x');">x</span>
+<span class="opt" onclick="setHistory('/');">/</span>
+<span class="opt" onclick="setHistory('=');">=</span>
+<span class="opt" onclick="setHistory('c');">c</span>
+</body>
+</html>
